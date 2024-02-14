@@ -12,6 +12,11 @@ const projectcontainer = document.getElementById('container');
             const data = await response.json();
             console.log(data.projecten);
 
+            data.projecten.forEach(project => {
+                projectcontainer.innerHTML += `
+                <p> ${project.naam}`
+            });
+
             // Hier kun je de ontvangen gegevens verwerken en weergeven in je HTML
             //projectcontainer.textContent = JSON.stringify(data, null, 2);
           } catch (error) {
