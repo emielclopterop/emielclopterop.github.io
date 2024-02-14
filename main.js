@@ -10,10 +10,10 @@ const projectcontainer = document.getElementById('container');
             }
 
             const data = await response.json();
-            console.log(data);
+            console.log(data.projecten);
 
             // Hier kun je de ontvangen gegevens verwerken en weergeven in je HTML
-            projectcontainer.textContent = JSON.stringify(data, null, 2);
+            //projectcontainer.textContent = JSON.stringify(data, null, 2);
           } catch (error) {
             console.error('Fout bij het ophalen van JSON:', error);
           }
