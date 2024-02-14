@@ -1,0 +1,16 @@
+{
+    "projecten": [
+      {
+        "naam": "Mijn Eerste Project",
+        "startdatum": "2023-01-01",
+        "einddatum": "2023-03-15",
+        "status": "Actief"
+      },
+      {
+        "naam": "Mijn Tweede Project",
+        "startdatum": "2023-04-01",
+        "einddatum": "2023-06-30",
+        "status": "In afwachting"
+      }
+    ]
+  }
